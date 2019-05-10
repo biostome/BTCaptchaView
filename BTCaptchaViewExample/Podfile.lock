@@ -1,0 +1,16 @@
+PODS:
+  - BTCaptchaView (1.0.0)
+
+DEPENDENCIES:
+  - BTCaptchaView (from `../`)
+
+EXTERNAL SOURCES:
+  BTCaptchaView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTCaptchaView: e6cadc5acae477312d59ceaded66ba8445b06df2
+
+PODFILE CHECKSUM: 209842eec73ef9ccfea19dcf732f942bc351693f
+
+COCOAPODS: 1.6.1

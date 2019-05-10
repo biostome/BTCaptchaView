@@ -1,0 +1,6 @@
+framework module BTCaptchaView {
+  umbrella header "BTCaptchaView-umbrella.h"
+
+  export *
+  module * { export * }
+}

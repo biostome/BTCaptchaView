@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57AF0C185F3CE2EEE9A1E7D3ED45773E /* BTCaptchaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2F3631EB2A5F92B7D1F4BCC12FC554 /* BTCaptchaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA8019CAFA87D4870132157B4A3470F /* BTCaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F66F7E5E65D5B3F54CE51C1110D15D7 /* BTCaptchaView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A4A8B3AB75897BA0BF9EDFA22B60C8B2 /* BTCaptchaView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF3A900740391EB8014BADABCD911 /* BTCaptchaView-dummy.m */; };
+		A5F5545418E9F4C58104930A5597A809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CD8E1DADD1FAF03C959583CC5B8F4FC8 /* Pods-BTCaptchaViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F27A27870050739A6D1BF6353C19993E /* Pods-BTCaptchaViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8F868AB6BD49B17636646C6479BA10 /* BTCaptchaView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0A93565E1A07CD672188960FB8BFC /* BTCaptchaView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F649521334FA068373A7B71595A396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DD1D260D4F28900495BDC55CF84DE5B6 /* Pods-BTCaptchaViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE766F9338836BE4A970D2CD8F195ABE /* Pods-BTCaptchaViewExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C571B524F4DC2108A5E67F03785F73B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3F5168D070C0E9BFBDC97D891574E50;
+			remoteInfo = BTCaptchaView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C0A93565E1A07CD672188960FB8BFC /* BTCaptchaView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCaptchaView-umbrella.h"; sourceTree = "<group>"; };
+		076DC07C3D3B17E347005350D613FD2D /* Pods-BTCaptchaViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTCaptchaViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BDD2837E0CDD1CE3ACBB4B5C775EBD2 /* BTCaptchaView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTCaptchaView.modulemap; sourceTree = "<group>"; };
+		1EA0674241B5BA3017749B1FAF118435 /* Pods-BTCaptchaViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTCaptchaViewExample-Info.plist"; sourceTree = "<group>"; };
+		23B178ABF69E95FE611B9AA2A2240C9D /* Pods-BTCaptchaViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCaptchaViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		31447A9A578E8D28A7010BDC98A186C4 /* Pods_BTCaptchaViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCaptchaViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		368AFD54FAC86CB1F4F8F8B67D0CC5A9 /* Pods-BTCaptchaViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCaptchaViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		458CB2EA20EFEFBF4DE189505BAED822 /* Pods-BTCaptchaViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTCaptchaViewExample.modulemap"; sourceTree = "<group>"; };
+		5E51F9CD37E9FBE2CF74EF6D49F83B49 /* Pods-BTCaptchaViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTCaptchaViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		68F69D490544D2A24443B3E6E47AF0F0 /* BTCaptchaView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTCaptchaView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F66F7E5E65D5B3F54CE51C1110D15D7 /* BTCaptchaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BTCaptchaView.swift; sourceTree = "<group>"; };
+		865AF3A900740391EB8014BADABCD911 /* BTCaptchaView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTCaptchaView-dummy.m"; sourceTree = "<group>"; };
+		90133AB58D3CA58B80FBEEBDBD80DA7D /* BTCaptchaView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTCaptchaView-Info.plist"; sourceTree = "<group>"; };
+		9B2F3631EB2A5F92B7D1F4BCC12FC554 /* BTCaptchaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCaptchaView.h; path = BTCaptchaView/BTCaptchaView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC58C472F5933DA9EAB8A8DDC59F4144 /* BTCaptchaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTCaptchaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE766F9338836BE4A970D2CD8F195ABE /* Pods-BTCaptchaViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTCaptchaViewExample-dummy.m"; sourceTree = "<group>"; };
+		BF0DFFDFD98FAD7B8E5D38AEF46F196A /* Pods-BTCaptchaViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTCaptchaViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTCaptchaView.xcconfig; sourceTree = "<group>"; };
+		C75CD37B2F2065479D2AE4D1D5A04331 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E424438A1056B4B9524954C4C323708A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E6BEE54840648D013D605B43CDEE0A9D /* BTCaptchaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCaptchaView-prefix.pch"; sourceTree = "<group>"; };
+		F27A27870050739A6D1BF6353C19993E /* Pods-BTCaptchaViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTCaptchaViewExample-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7E40F2EB8638E948BDCF509E5F3055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F5545418E9F4C58104930A5597A809 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D564F9362CA685C8AB4B02491EC2BCB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F649521334FA068373A7B71595A396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C87733D4AB47BBF8BD43F3131871067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC58C472F5933DA9EAB8A8DDC59F4144 /* BTCaptchaView.framework */,
+				31447A9A578E8D28A7010BDC98A186C4 /* Pods_BTCaptchaViewExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408E2793320417A4AB84AB300BF4ACF2 /* Pods-BTCaptchaViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				458CB2EA20EFEFBF4DE189505BAED822 /* Pods-BTCaptchaViewExample.modulemap */,
+				076DC07C3D3B17E347005350D613FD2D /* Pods-BTCaptchaViewExample-acknowledgements.markdown */,
+				BF0DFFDFD98FAD7B8E5D38AEF46F196A /* Pods-BTCaptchaViewExample-acknowledgements.plist */,
+				BE766F9338836BE4A970D2CD8F195ABE /* Pods-BTCaptchaViewExample-dummy.m */,
+				5E51F9CD37E9FBE2CF74EF6D49F83B49 /* Pods-BTCaptchaViewExample-frameworks.sh */,
+				1EA0674241B5BA3017749B1FAF118435 /* Pods-BTCaptchaViewExample-Info.plist */,
+				F27A27870050739A6D1BF6353C19993E /* Pods-BTCaptchaViewExample-umbrella.h */,
+				23B178ABF69E95FE611B9AA2A2240C9D /* Pods-BTCaptchaViewExample.debug.xcconfig */,
+				368AFD54FAC86CB1F4F8F8B67D0CC5A9 /* Pods-BTCaptchaViewExample.release.xcconfig */,
+			);
+			name = "Pods-BTCaptchaViewExample";
+			path = "Target Support Files/Pods-BTCaptchaViewExample";
+			sourceTree = "<group>";
+		};
+		6746F8B0CD22539CB20EE75B3362E8C2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6F66F7E5E65D5B3F54CE51C1110D15D7 /* BTCaptchaView.swift */,
+			);
+			name = Sources;
+			path = BTCaptchaView/Sources;
+			sourceTree = "<group>";
+		};
+		815AAF091D4257B459BD02940E606CAF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				68F69D490544D2A24443B3E6E47AF0F0 /* BTCaptchaView.podspec */,
+				E424438A1056B4B9524954C4C323708A /* LICENSE */,
+				C75CD37B2F2065479D2AE4D1D5A04331 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B36BB142B2F62E4986D4F31FC7D81E46 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				408E2793320417A4AB84AB300BF4ACF2 /* Pods-BTCaptchaViewExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C500C3F7A59AFCBB1D856B6DFF4203DC /* BTCaptchaView */ = {
+			isa = PBXGroup;
+			children = (
+				9B2F3631EB2A5F92B7D1F4BCC12FC554 /* BTCaptchaView.h */,
+				815AAF091D4257B459BD02940E606CAF /* Pod */,
+				6746F8B0CD22539CB20EE75B3362E8C2 /* Sources */,
+				E6CB0720F4E75857D59686F6D74DD1CB /* Support Files */,
+			);
+			name = BTCaptchaView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E04425D5978F273A138332D047331D35 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C87733D4AB47BBF8BD43F3131871067 /* Products */,
+				B36BB142B2F62E4986D4F31FC7D81E46 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E04425D5978F273A138332D047331D35 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C500C3F7A59AFCBB1D856B6DFF4203DC /* BTCaptchaView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E6CB0720F4E75857D59686F6D74DD1CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BDD2837E0CDD1CE3ACBB4B5C775EBD2 /* BTCaptchaView.modulemap */,
+				C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */,
+				865AF3A900740391EB8014BADABCD911 /* BTCaptchaView-dummy.m */,
+				90133AB58D3CA58B80FBEEBDBD80DA7D /* BTCaptchaView-Info.plist */,
+				E6BEE54840648D013D605B43CDEE0A9D /* BTCaptchaView-prefix.pch */,
+				00C0A93565E1A07CD672188960FB8BFC /* BTCaptchaView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "BTCaptchaViewExample/Pods/Target Support Files/BTCaptchaView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		175512E3B50C6C4E62BB35B97D07B075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8F868AB6BD49B17636646C6479BA10 /* BTCaptchaView-umbrella.h in Headers */,
+				57AF0C185F3CE2EEE9A1E7D3ED45773E /* BTCaptchaView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456B7940A4D58B43D52DD49098A71684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E1DADD1FAF03C959583CC5B8F4FC8 /* Pods-BTCaptchaViewExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF725CBA421F96A7F0411F01A72760EA /* Pods-BTCaptchaViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C6C0508D65C5F3D0EB3957978CF426 /* Build configuration list for PBXNativeTarget "Pods-BTCaptchaViewExample" */;
+			buildPhases = (
+				456B7940A4D58B43D52DD49098A71684 /* Headers */,
+				63F2BECBAD69293E294C74692C1F214C /* Sources */,
+				D564F9362CA685C8AB4B02491EC2BCB4 /* Frameworks */,
+				6CFEDAAA40586647252CD292E2517D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75356367441303520071BE5731ACACE /* PBXTargetDependency */,
+			);
+			name = "Pods-BTCaptchaViewExample";
+			productName = "Pods-BTCaptchaViewExample";
+			productReference = 31447A9A578E8D28A7010BDC98A186C4 /* Pods_BTCaptchaViewExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3F5168D070C0E9BFBDC97D891574E50 /* BTCaptchaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0E5F368CCF8D7F61F21A67BC36BDC5 /* Build configuration list for PBXNativeTarget "BTCaptchaView" */;
+			buildPhases = (
+				175512E3B50C6C4E62BB35B97D07B075 /* Headers */,
+				F633E95E17C61C92B688B7002B0685BD /* Sources */,
+				3D7E40F2EB8638E948BDCF509E5F3055 /* Frameworks */,
+				57BCA0921EBF3A0505AA4AD11F68DADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCaptchaView;
+			productName = BTCaptchaView;
+			productReference = AC58C472F5933DA9EAB8A8DDC59F4144 /* BTCaptchaView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C87733D4AB47BBF8BD43F3131871067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3F5168D070C0E9BFBDC97D891574E50 /* BTCaptchaView */,
+				BF725CBA421F96A7F0411F01A72760EA /* Pods-BTCaptchaViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BCA0921EBF3A0505AA4AD11F68DADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFEDAAA40586647252CD292E2517D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F2BECBAD69293E294C74692C1F214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1D260D4F28900495BDC55CF84DE5B6 /* Pods-BTCaptchaViewExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F633E95E17C61C92B688B7002B0685BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A8B3AB75897BA0BF9EDFA22B60C8B2 /* BTCaptchaView-dummy.m in Sources */,
+				8CA8019CAFA87D4870132157B4A3470F /* BTCaptchaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75356367441303520071BE5731ACACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTCaptchaView;
+			target = E3F5168D070C0E9BFBDC97D891574E50 /* BTCaptchaView */;
+			targetProxy = C571B524F4DC2108A5E67F03785F73B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		07B2FD49B811D91E7557AFD88BEB7AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTCaptchaView/BTCaptchaView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView.modulemap";
+				PRODUCT_MODULE_NAME = BTCaptchaView;
+				PRODUCT_NAME = BTCaptchaView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		235DB405D6D986CDF2B87D66CD4473F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTCaptchaView/BTCaptchaView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView.modulemap";
+				PRODUCT_MODULE_NAME = BTCaptchaView;
+				PRODUCT_NAME = BTCaptchaView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F67BE30FF7C0DE246466B032FA6BE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B178ABF69E95FE611B9AA2A2240C9D /* Pods-BTCaptchaViewExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AEE6A759694C1C9337F2FEE84A02FACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368AFD54FAC86CB1F4F8F8B67D0CC5A9 /* Pods-BTCaptchaViewExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C6C0508D65C5F3D0EB3957978CF426 /* Build configuration list for PBXNativeTarget "Pods-BTCaptchaViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F67BE30FF7C0DE246466B032FA6BE7E /* Debug */,
+				AEE6A759694C1C9337F2FEE84A02FACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0E5F368CCF8D7F61F21A67BC36BDC5 /* Build configuration list for PBXNativeTarget "BTCaptchaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B2FD49B811D91E7557AFD88BEB7AE6 /* Debug */,
+				235DB405D6D986CDF2B87D66CD4473F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -8,7 +8,7 @@
 import UIKit
 
 
-class BTCaptchaView: UIView {
+public class BTCaptchaView: UIView {
     
     /// interference line total count
     public var interferenceLineCount:Int = 6
@@ -45,12 +45,12 @@ class BTCaptchaView: UIView {
         self.backgroundColor = arc4randomBackgroundColor(alpha: 1.0)
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         onTouch?()
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
         drawCaptcha(rect)
     }
