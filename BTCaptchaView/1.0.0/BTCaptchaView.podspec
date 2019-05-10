@@ -9,7 +9,7 @@ s.license        = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "biostome" => "453816118@qq.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/biostome/BTCaptchaView.git", :tag => s.version }
-s.source_files = "BTCaptchaView/*.{swift,h}"
+s.source_files = "BTCaptchaView/**/*.{swift,h}"
 s.requires_arc = true
 s.swift_version = "5.0"
 #s.frameworks = "SomeFramework", "AnotherFramework"
