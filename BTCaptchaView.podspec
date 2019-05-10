@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "BTCaptchaView"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "图形验证码视图"
 s.homepage     = "https://github.com/biostome"
 s.license        = { :type => "MIT", :file => "LICENSE" }
