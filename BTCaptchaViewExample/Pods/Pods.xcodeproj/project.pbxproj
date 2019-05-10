@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,23 +33,23 @@
 		0BDD2837E0CDD1CE3ACBB4B5C775EBD2 /* BTCaptchaView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTCaptchaView.modulemap; sourceTree = "<group>"; };
 		1EA0674241B5BA3017749B1FAF118435 /* Pods-BTCaptchaViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTCaptchaViewExample-Info.plist"; sourceTree = "<group>"; };
 		23B178ABF69E95FE611B9AA2A2240C9D /* Pods-BTCaptchaViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCaptchaViewExample.debug.xcconfig"; sourceTree = "<group>"; };
-		31447A9A578E8D28A7010BDC98A186C4 /* Pods_BTCaptchaViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCaptchaViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31447A9A578E8D28A7010BDC98A186C4 /* Pods_BTCaptchaViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTCaptchaViewExample.framework; path = "Pods-BTCaptchaViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		368AFD54FAC86CB1F4F8F8B67D0CC5A9 /* Pods-BTCaptchaViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCaptchaViewExample.release.xcconfig"; sourceTree = "<group>"; };
 		458CB2EA20EFEFBF4DE189505BAED822 /* Pods-BTCaptchaViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTCaptchaViewExample.modulemap"; sourceTree = "<group>"; };
 		5E51F9CD37E9FBE2CF74EF6D49F83B49 /* Pods-BTCaptchaViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTCaptchaViewExample-frameworks.sh"; sourceTree = "<group>"; };
-		68F69D490544D2A24443B3E6E47AF0F0 /* BTCaptchaView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTCaptchaView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68F69D490544D2A24443B3E6E47AF0F0 /* BTCaptchaView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTCaptchaView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6F66F7E5E65D5B3F54CE51C1110D15D7 /* BTCaptchaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BTCaptchaView.swift; sourceTree = "<group>"; };
 		865AF3A900740391EB8014BADABCD911 /* BTCaptchaView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTCaptchaView-dummy.m"; sourceTree = "<group>"; };
 		90133AB58D3CA58B80FBEEBDBD80DA7D /* BTCaptchaView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTCaptchaView-Info.plist"; sourceTree = "<group>"; };
 		9B2F3631EB2A5F92B7D1F4BCC12FC554 /* BTCaptchaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCaptchaView.h; path = BTCaptchaView/BTCaptchaView.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC58C472F5933DA9EAB8A8DDC59F4144 /* BTCaptchaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTCaptchaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC58C472F5933DA9EAB8A8DDC59F4144 /* BTCaptchaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTCaptchaView.framework; path = BTCaptchaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE766F9338836BE4A970D2CD8F195ABE /* Pods-BTCaptchaViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTCaptchaViewExample-dummy.m"; sourceTree = "<group>"; };
 		BF0DFFDFD98FAD7B8E5D38AEF46F196A /* Pods-BTCaptchaViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTCaptchaViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTCaptchaView.xcconfig; sourceTree = "<group>"; };
-		C75CD37B2F2065479D2AE4D1D5A04331 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C75CD37B2F2065479D2AE4D1D5A04331 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E424438A1056B4B9524954C4C323708A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E424438A1056B4B9524954C4C323708A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E6BEE54840648D013D605B43CDEE0A9D /* BTCaptchaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCaptchaView-prefix.pch"; sourceTree = "<group>"; };
 		F27A27870050739A6D1BF6353C19993E /* Pods-BTCaptchaViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTCaptchaViewExample-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -255,15 +255,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 2C87733D4AB47BBF8BD43F3131871067 /* Products */;
@@ -327,7 +326,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -405,7 +403,11 @@
 				INFOPLIST_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView.modulemap";
 				PRODUCT_MODULE_NAME = BTCaptchaView;
 				PRODUCT_NAME = BTCaptchaView;
@@ -436,7 +438,11 @@
 				INFOPLIST_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/BTCaptchaView/BTCaptchaView.modulemap";
 				PRODUCT_MODULE_NAME = BTCaptchaView;
 				PRODUCT_NAME = BTCaptchaView;
@@ -468,7 +474,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample.modulemap";
 				OTHER_LDFLAGS = "";
@@ -488,7 +498,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -538,7 +547,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -561,7 +571,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample.modulemap";
 				OTHER_LDFLAGS = "";
