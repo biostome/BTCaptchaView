@@ -7,11 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84551262286E28C00A47141 /* BTCaptchaViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84551252286E28C00A47141 /* BTCaptchaViewTests.swift */; };
+		D84551282286E28C00A47141 /* BTCaptchaView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D897FF782285338E0015726C /* BTCaptchaView.framework */; };
 		D897FF7D2285338E0015726C /* BTCaptchaView.h in Headers */ = {isa = PBXBuildFile; fileRef = D897FF7B2285338E0015726C /* BTCaptchaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D897FF842285355E0015726C /* BTCaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897FF832285355E0015726C /* BTCaptchaView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D84551292286E28C00A47141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D897FF6F2285338E0015726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D897FF772285338E0015726C;
+			remoteInfo = BTCaptchaView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		D84551232286E28C00A47141 /* BTCaptchaViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCaptchaViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84551252286E28C00A47141 /* BTCaptchaViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCaptchaViewTests.swift; sourceTree = "<group>"; };
+		D84551272286E28C00A47141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D897FF782285338E0015726C /* BTCaptchaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTCaptchaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D897FF7B2285338E0015726C /* BTCaptchaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCaptchaView.h; sourceTree = "<group>"; };
 		D897FF7C2285338E0015726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -19,6 +34,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D84551202286E28C00A47141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84551282286E28C00A47141 /* BTCaptchaView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D897FF752285338E0015726C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,10 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D84551242286E28C00A47141 /* BTCaptchaViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D84551252286E28C00A47141 /* BTCaptchaViewTests.swift */,
+				D84551272286E28C00A47141 /* Info.plist */,
+			);
+			path = BTCaptchaViewTests;
+			sourceTree = "<group>";
+		};
 		D897FF6E2285338E0015726C = {
 			isa = PBXGroup;
 			children = (
 				D897FF7A2285338E0015726C /* Sources */,
+				D84551242286E28C00A47141 /* BTCaptchaViewTests */,
 				D897FF792285338E0015726C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				D897FF782285338E0015726C /* BTCaptchaView.framework */,
+				D84551232286E28C00A47141 /* BTCaptchaViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +103,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D84551222286E28C00A47141 /* BTCaptchaViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D845512D2286E28C00A47141 /* Build configuration list for PBXNativeTarget "BTCaptchaViewTests" */;
+			buildPhases = (
+				D845511F2286E28C00A47141 /* Sources */,
+				D84551202286E28C00A47141 /* Frameworks */,
+				D84551212286E28C00A47141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D845512A2286E28C00A47141 /* PBXTargetDependency */,
+			);
+			name = BTCaptchaViewTests;
+			productName = BTCaptchaViewTests;
+			productReference = D84551232286E28C00A47141 /* BTCaptchaViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D897FF772285338E0015726C /* BTCaptchaView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D897FF802285338E0015726C /* Build configuration list for PBXNativeTarget "BTCaptchaView" */;
@@ -93,9 +145,13 @@
 		D897FF6F2285338E0015726C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = nathan;
 				TargetAttributes = {
+					D84551222286E28C00A47141 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					D897FF772285338E0015726C = {
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
@@ -115,11 +171,19 @@
 			projectRoot = "";
 			targets = (
 				D897FF772285338E0015726C /* BTCaptchaView */,
+				D84551222286E28C00A47141 /* BTCaptchaViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D84551212286E28C00A47141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D897FF762285338E0015726C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +194,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D845511F2286E28C00A47141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84551262286E28C00A47141 /* BTCaptchaViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D897FF742285338E0015726C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,7 +212,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D845512A2286E28C00A47141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D897FF772285338E0015726C /* BTCaptchaView */;
+			targetProxy = D84551292286E28C00A47141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D845512B2286E28C00A47141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BTCaptchaViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathan.BTCaptchaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D845512C2286E28C00A47141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BTCaptchaViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathan.BTCaptchaViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D897FF7E2285338E0015726C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -319,6 +435,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D845512D2286E28C00A47141 /* Build configuration list for PBXNativeTarget "BTCaptchaViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D845512B2286E28C00A47141 /* Debug */,
+				D845512C2286E28C00A47141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D897FF722285338E0015726C /* Build configuration list for PBXProject "BTCaptchaView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
