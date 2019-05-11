@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "BTCaptchaView.h"
 
 FOUNDATION_EXPORT double BTCaptchaViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char BTCaptchaViewVersionString[];

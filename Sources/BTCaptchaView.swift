@@ -9,7 +9,6 @@ import UIKit
 
 
 public class BTCaptchaView: UIView {
-    
     /// interference line total count
     public var interferenceLineCount:Int = 6
     /// interference line width
