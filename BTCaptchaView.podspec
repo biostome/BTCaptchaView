@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "BTCaptchaView"
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 s.summary      = "图形验证码视图"
 s.homepage     = "https://github.com/biostome"
 s.license        = { :type => "MIT", :file => "LICENSE" }
@@ -14,6 +14,6 @@ s.requires_arc = true
 s.swift_version = "5.0"
 #s.frameworks = "SomeFramework", "AnotherFramework"
 #s.framework    = "UIKit","Foundation"
-#s.ios.deployment_target = "12.0"
+#s.ios.deployment_target = "8.0"
 
 end

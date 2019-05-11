@@ -1,5 +1,5 @@
 PODS:
-  - BTCaptchaView (1.0.1)
+  - BTCaptchaView (1.0.2)
 
 DEPENDENCIES:
   - BTCaptchaView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTCaptchaView: 9d82383c70e8ebca1e387312262fefd3ecc1abeb
+  BTCaptchaView: 56476534b6a888dab172259d0c4fb9582b9cdd45
 
 PODFILE CHECKSUM: 209842eec73ef9ccfea19dcf732f942bc351693f
 

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57AF0C185F3CE2EEE9A1E7D3ED45773E /* BTCaptchaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2F3631EB2A5F92B7D1F4BCC12FC554 /* BTCaptchaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CA8019CAFA87D4870132157B4A3470F /* BTCaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F66F7E5E65D5B3F54CE51C1110D15D7 /* BTCaptchaView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A4A8B3AB75897BA0BF9EDFA22B60C8B2 /* BTCaptchaView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AF3A900740391EB8014BADABCD911 /* BTCaptchaView-dummy.m */; };
+		283F838FEDF87CEE0967559A77DD9EAD /* BTCaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D72CB152E0146518E7AF84DD6B3034 /* BTCaptchaView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A5F5545418E9F4C58104930A5597A809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		CD8E1DADD1FAF03C959583CC5B8F4FC8 /* Pods-BTCaptchaViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F27A27870050739A6D1BF6353C19993E /* Pods-BTCaptchaViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF8F868AB6BD49B17636646C6479BA10 /* BTCaptchaView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0A93565E1A07CD672188960FB8BFC /* BTCaptchaView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8F868AB6BD49B17636646C6479BA10 /* BTCaptchaView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B5943BF07049248A330285301907E9 /* BTCaptchaView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1F649521334FA068373A7B71595A396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DD1D260D4F28900495BDC55CF84DE5B6 /* Pods-BTCaptchaViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE766F9338836BE4A970D2CD8F195ABE /* Pods-BTCaptchaViewExample-dummy.m */; };
+		FDDDA574D9ABE6A86EA5AD5189E86FA7 /* BTCaptchaView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81CE908EBD62646A6F1071E935D6FE /* BTCaptchaView-dummy.m */; };
+		FE1AA6229AB3C04A0827AE4C07E353D8 /* BTCaptchaView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8AEAA6BB20A77A3129775B18EACE0F /* BTCaptchaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,29 +28,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C0A93565E1A07CD672188960FB8BFC /* BTCaptchaView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCaptchaView-umbrella.h"; sourceTree = "<group>"; };
 		076DC07C3D3B17E347005350D613FD2D /* Pods-BTCaptchaViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTCaptchaViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0BDD2837E0CDD1CE3ACBB4B5C775EBD2 /* BTCaptchaView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTCaptchaView.modulemap; sourceTree = "<group>"; };
+		17C981592231ACC76000BAE8C6E8A171 /* BTCaptchaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCaptchaView-prefix.pch"; sourceTree = "<group>"; };
 		1EA0674241B5BA3017749B1FAF118435 /* Pods-BTCaptchaViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTCaptchaViewExample-Info.plist"; sourceTree = "<group>"; };
 		23B178ABF69E95FE611B9AA2A2240C9D /* Pods-BTCaptchaViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCaptchaViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		262C7C360A4045721EFF498A59C4CC2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		28D72CB152E0146518E7AF84DD6B3034 /* BTCaptchaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTCaptchaView.swift; path = Sources/BTCaptchaView.swift; sourceTree = "<group>"; };
 		31447A9A578E8D28A7010BDC98A186C4 /* Pods_BTCaptchaViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTCaptchaViewExample.framework; path = "Pods-BTCaptchaViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		368AFD54FAC86CB1F4F8F8B67D0CC5A9 /* Pods-BTCaptchaViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCaptchaViewExample.release.xcconfig"; sourceTree = "<group>"; };
 		458CB2EA20EFEFBF4DE189505BAED822 /* Pods-BTCaptchaViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTCaptchaViewExample.modulemap"; sourceTree = "<group>"; };
+		4646189C2C127E6D29C64FD89D39515E /* BTCaptchaView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTCaptchaView.xcconfig; sourceTree = "<group>"; };
+		55042EFB3D12AFA6AF898D19CDEEB9E9 /* BTCaptchaView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTCaptchaView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E51F9CD37E9FBE2CF74EF6D49F83B49 /* Pods-BTCaptchaViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTCaptchaViewExample-frameworks.sh"; sourceTree = "<group>"; };
-		68F69D490544D2A24443B3E6E47AF0F0 /* BTCaptchaView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTCaptchaView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6F66F7E5E65D5B3F54CE51C1110D15D7 /* BTCaptchaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BTCaptchaView.swift; sourceTree = "<group>"; };
-		865AF3A900740391EB8014BADABCD911 /* BTCaptchaView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTCaptchaView-dummy.m"; sourceTree = "<group>"; };
-		90133AB58D3CA58B80FBEEBDBD80DA7D /* BTCaptchaView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTCaptchaView-Info.plist"; sourceTree = "<group>"; };
-		9B2F3631EB2A5F92B7D1F4BCC12FC554 /* BTCaptchaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCaptchaView.h; path = BTCaptchaView/BTCaptchaView.h; sourceTree = "<group>"; };
+		64B5943BF07049248A330285301907E9 /* BTCaptchaView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCaptchaView-umbrella.h"; sourceTree = "<group>"; };
+		7FA40769A10034385F215BCA6E26E2F3 /* BTCaptchaView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTCaptchaView.modulemap; sourceTree = "<group>"; };
+		91A02121DBD1572B8938A57B1C88565D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6F56BDCD7CBD980A0AB4A50B80D298E /* BTCaptchaView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTCaptchaView-Info.plist"; sourceTree = "<group>"; };
 		AC58C472F5933DA9EAB8A8DDC59F4144 /* BTCaptchaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTCaptchaView.framework; path = BTCaptchaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8AEAA6BB20A77A3129775B18EACE0F /* BTCaptchaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCaptchaView.h; path = Sources/BTCaptchaView.h; sourceTree = "<group>"; };
 		BE766F9338836BE4A970D2CD8F195ABE /* Pods-BTCaptchaViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTCaptchaViewExample-dummy.m"; sourceTree = "<group>"; };
 		BF0DFFDFD98FAD7B8E5D38AEF46F196A /* Pods-BTCaptchaViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTCaptchaViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTCaptchaView.xcconfig; sourceTree = "<group>"; };
-		C75CD37B2F2065479D2AE4D1D5A04331 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF81CE908EBD62646A6F1071E935D6FE /* BTCaptchaView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTCaptchaView-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E424438A1056B4B9524954C4C323708A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E6BEE54840648D013D605B43CDEE0A9D /* BTCaptchaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCaptchaView-prefix.pch"; sourceTree = "<group>"; };
 		F27A27870050739A6D1BF6353C19993E /* Pods-BTCaptchaViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTCaptchaViewExample-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,23 +100,26 @@
 			path = "Target Support Files/Pods-BTCaptchaViewExample";
 			sourceTree = "<group>";
 		};
-		6746F8B0CD22539CB20EE75B3362E8C2 /* Sources */ = {
+		67184B1A3A9E2B33BB868F23FFF20266 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6F66F7E5E65D5B3F54CE51C1110D15D7 /* BTCaptchaView.swift */,
-			);
-			name = Sources;
-			path = BTCaptchaView/Sources;
-			sourceTree = "<group>";
-		};
-		815AAF091D4257B459BD02940E606CAF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				68F69D490544D2A24443B3E6E47AF0F0 /* BTCaptchaView.podspec */,
-				E424438A1056B4B9524954C4C323708A /* LICENSE */,
-				C75CD37B2F2065479D2AE4D1D5A04331 /* README.md */,
+				55042EFB3D12AFA6AF898D19CDEEB9E9 /* BTCaptchaView.podspec */,
+				91A02121DBD1572B8938A57B1C88565D /* LICENSE */,
+				262C7C360A4045721EFF498A59C4CC2E /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		71ABAF4D79044C7B7CEED48EFE6534B7 /* BTCaptchaView */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AEAA6BB20A77A3129775B18EACE0F /* BTCaptchaView.h */,
+				28D72CB152E0146518E7AF84DD6B3034 /* BTCaptchaView.swift */,
+				67184B1A3A9E2B33BB868F23FFF20266 /* Pod */,
+				A597D3772E9F8AB4F46959BE459DED95 /* Support Files */,
+			);
+			name = BTCaptchaView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -127,24 +130,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		A597D3772E9F8AB4F46959BE459DED95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA40769A10034385F215BCA6E26E2F3 /* BTCaptchaView.modulemap */,
+				4646189C2C127E6D29C64FD89D39515E /* BTCaptchaView.xcconfig */,
+				BF81CE908EBD62646A6F1071E935D6FE /* BTCaptchaView-dummy.m */,
+				A6F56BDCD7CBD980A0AB4A50B80D298E /* BTCaptchaView-Info.plist */,
+				17C981592231ACC76000BAE8C6E8A171 /* BTCaptchaView-prefix.pch */,
+				64B5943BF07049248A330285301907E9 /* BTCaptchaView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "BTCaptchaViewExample/Pods/Target Support Files/BTCaptchaView";
+			sourceTree = "<group>";
+		};
 		B36BB142B2F62E4986D4F31FC7D81E46 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				408E2793320417A4AB84AB300BF4ACF2 /* Pods-BTCaptchaViewExample */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C500C3F7A59AFCBB1D856B6DFF4203DC /* BTCaptchaView */ = {
-			isa = PBXGroup;
-			children = (
-				9B2F3631EB2A5F92B7D1F4BCC12FC554 /* BTCaptchaView.h */,
-				815AAF091D4257B459BD02940E606CAF /* Pod */,
-				6746F8B0CD22539CB20EE75B3362E8C2 /* Sources */,
-				E6CB0720F4E75857D59686F6D74DD1CB /* Support Files */,
-			);
-			name = BTCaptchaView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -169,23 +174,9 @@
 		E04425D5978F273A138332D047331D35 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C500C3F7A59AFCBB1D856B6DFF4203DC /* BTCaptchaView */,
+				71ABAF4D79044C7B7CEED48EFE6534B7 /* BTCaptchaView */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E6CB0720F4E75857D59686F6D74DD1CB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BDD2837E0CDD1CE3ACBB4B5C775EBD2 /* BTCaptchaView.modulemap */,
-				C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */,
-				865AF3A900740391EB8014BADABCD911 /* BTCaptchaView-dummy.m */,
-				90133AB58D3CA58B80FBEEBDBD80DA7D /* BTCaptchaView-Info.plist */,
-				E6BEE54840648D013D605B43CDEE0A9D /* BTCaptchaView-prefix.pch */,
-				00C0A93565E1A07CD672188960FB8BFC /* BTCaptchaView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "BTCaptchaViewExample/Pods/Target Support Files/BTCaptchaView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8F868AB6BD49B17636646C6479BA10 /* BTCaptchaView-umbrella.h in Headers */,
-				57AF0C185F3CE2EEE9A1E7D3ED45773E /* BTCaptchaView.h in Headers */,
+				FE1AA6229AB3C04A0827AE4C07E353D8 /* BTCaptchaView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +226,7 @@
 			buildConfigurationList = 3F0E5F368CCF8D7F61F21A67BC36BDC5 /* Build configuration list for PBXNativeTarget "BTCaptchaView" */;
 			buildPhases = (
 				175512E3B50C6C4E62BB35B97D07B075 /* Headers */,
-				F633E95E17C61C92B688B7002B0685BD /* Sources */,
+				BEFF07571AA30E5B7CE7ED6376E1E3F4 /* Sources */,
 				3D7E40F2EB8638E948BDCF509E5F3055 /* Frameworks */,
 				57BCA0921EBF3A0505AA4AD11F68DADC /* Resources */,
 			);
@@ -301,12 +292,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F633E95E17C61C92B688B7002B0685BD /* Sources */ = {
+		BEFF07571AA30E5B7CE7ED6376E1E3F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A8B3AB75897BA0BF9EDFA22B60C8B2 /* BTCaptchaView-dummy.m in Sources */,
-				8CA8019CAFA87D4870132157B4A3470F /* BTCaptchaView.swift in Sources */,
+				FDDDA574D9ABE6A86EA5AD5189E86FA7 /* BTCaptchaView-dummy.m in Sources */,
+				283F838FEDF87CEE0967559A77DD9EAD /* BTCaptchaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +379,7 @@
 		};
 		07B2FD49B811D91E7557AFD88BEB7AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */;
+			baseConfigurationReference = 4646189C2C127E6D29C64FD89D39515E /* BTCaptchaView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -423,7 +414,7 @@
 		};
 		235DB405D6D986CDF2B87D66CD4473F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6050995E57605EAC52A4BD54FA5624A /* BTCaptchaView.xcconfig */;
+			baseConfigurationReference = 4646189C2C127E6D29C64FD89D39515E /* BTCaptchaView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
