@@ -103,7 +103,6 @@
 				D897FFBF228568CA0015726C /* Sources */,
 				D897FFC0228568CA0015726C /* Frameworks */,
 				D897FFC1228568CA0015726C /* Resources */,
-				4AAF94B54AC4EAAD750B8329 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,28 +160,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4AAF94B54AC4EAAD750B8329 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BTCaptchaView/BTCaptchaView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BTCaptchaView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTCaptchaViewExample/Pods-BTCaptchaViewExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		51D3D0F058BF7F511FEDAB2C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

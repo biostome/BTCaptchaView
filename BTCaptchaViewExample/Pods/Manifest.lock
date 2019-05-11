@@ -1,16 +1,16 @@
 PODS:
-  - BTCaptchaView (1.0.2)
+  - BTCaptchaView (1.0.3)
 
 DEPENDENCIES:
-  - BTCaptchaView (from `../`)
+  - BTCaptchaView
 
-EXTERNAL SOURCES:
-  BTCaptchaView:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BTCaptchaView
 
 SPEC CHECKSUMS:
-  BTCaptchaView: 56476534b6a888dab172259d0c4fb9582b9cdd45
+  BTCaptchaView: 56f36e9d24699b5021bea2ecc4bf999fe4d68ffa
 
-PODFILE CHECKSUM: 209842eec73ef9ccfea19dcf732f942bc351693f
+PODFILE CHECKSUM: eaecf6f8967147764f2174d588a74eae3b4b02de
 
 COCOAPODS: 1.6.1
